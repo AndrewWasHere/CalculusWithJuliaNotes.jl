@@ -274,9 +274,10 @@ We drew a line connecting $(1/2, f(1/2))$ to $(f(1/2),1/2)$. We can see that it 
 
 One consequence of this symmetry, is that if $f$ is strictly increasing, then so is its inverse.
 
-
-!!!note 	In the above we used `cbrt(x)` and not `x^(1/3)`. The latter usage assumes that $x \geq 0$ as it isn't guaranteed that for all real exponents the answer will be a real number. The `cbrt` function knows there will always be a real answer and provides it.
-
+:::{.callout-note}
+## Note
+ 	In the above we used `cbrt(x)` and not `x^(1/3)`. The latter usage assumes that $x \geq 0$ as it isn't guaranteed that for all real exponents the answer will be a real number. The `cbrt` function knows there will always be a real answer and provides it.
+:::
 
 ### Lines
 
